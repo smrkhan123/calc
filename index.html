@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <h1 style="text-align: center;">Calculator</h1>
+            <div class="screen">
+                <p id="demo"></p>
+            </div>
+            <div class="keypad">
+                <table>
+                    <tr>
+                        <td><input type="button" value="9" id="operand"></td>
+                        <td><input type="button" value="8" id="operand"></td>
+                        <td><input type="button" value="7" id="operand"></td>
+                        <td><input type="button" value="/" id="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="6" id="operand"></td>
+                        <td><input type="button" value="5" id="operand"></td>
+                        <td><input type="button" value="4" id="operand"></td>
+                        <td><input type="button" value="-" id="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="3" id="operand"></td>
+                        <td><input type="button" value="2" id="operand"></td>
+                        <td><input type="button" value="1" id="operand"></td>
+                        <td><input type="button" value="*" id="operator"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="C" id="operand"></td>
+                        <td><input type="button" value="0" id="operand"></td>
+                        <td><input type="button" value="=" id="operator"></td>
+                        <td><input type="button" value="+" id="operator"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
